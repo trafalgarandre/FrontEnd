@@ -7,5 +7,36 @@ html {
 }
 
 body {
-	background-color: #333;
+	font-family: "Roboto", sans-serif;
+	background-color: #eee;
+	min-width: 300px;
+}
+
+.fig-img {
+	background-color: #FFF;
+	text-align: center;
+	padding: 2%;
+}
+
+#time-line {
+	text-align: center;
+	display: block;
+	line-height: 3;
+}
+
+#content {
+	width: 50%;
+	margin: auto;
+}
+
+footer p, h1, #norman-title {
+	text-align: center;
+}
+
+#content li {
+	line-height: 1.5;
+}
+
+img {
+	width: 100%;
 }
